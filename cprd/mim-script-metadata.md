@@ -8,10 +8,10 @@ concepts texually, but is not yet formally specified in RDF.
 
 Scripts in a [CPRD research object](../)
 
-A defines a **Checklist** with the constraints for a given *purpose*, 
+A defines a [Checklist](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimchecklist) with the constraints for a given *purpose*, 
 expressed via a *model*. 
 
-The Model lists **requirements** to be satisfied, which are split according to the 
+The [Model](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimmodel) lists **requirements** to be satisfied, which are split according to the 
 [RFC 2119](https://www.ietf.org/rfc/rfc2119) keywords MUST, SHOLD and MAY:
 
 > **MUST**   This word, or the terms "REQUIRED" or "SHALL", mean that the
@@ -34,13 +34,20 @@ The Model lists **requirements** to be satisfied, which are split according to t
 > does not include the option (except, of course, for the feature the
 > option provides.)
 
+A [requirement](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimrequirement) can be satisfied by implementing a **rule**, which can be a 
+[QueryTestRule](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimquerytestrule) to test the annotations metadata, or a 
+**SoftwareEnvRule**.
+
+The `QueryTestRule` can be broken down into an existence test ([CardinalityTest](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimcardinalitytest-existence-test)) or liveness test ([AccessibilityTest](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimaccessibilitytest-liveness-test)). For Research Object there is additionally an [AggregationTest](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimaggregationtest)  to define what kind of resources must be aggregated in a Research Object.
 
 
-## cprd model
+
+## CPRD script model
+
+Below these requirements for CPRD are expressed in human-readable forms.
 
 
-
-### MUST equirements
+### MUST requirements
 
 ### SHOULD requirements
 
