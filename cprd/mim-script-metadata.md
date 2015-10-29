@@ -49,11 +49,15 @@ Below these requirements for CPRD are expressed in human-readable forms.
 
 ### MUST requirements
 
-* _e.g. The Research Object MUST have at least one resource that is a `ex:Script`._
+* The Research Object MUST have at least one resource that is a `ex:Script`._
+* The script MUST have a `ex:requiresSoftware` method
 
 
 ### SHOULD requirements
-
+* The script SHOULD have a `ex:statisticalMethod` defined
+* The research object SHOULD have example inputs
+* The required software SHOULD have a `foaf:homepage` defined 
 
 ### MAY requirements
 
+* The research object MAY have example outputs
