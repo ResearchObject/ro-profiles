@@ -49,6 +49,11 @@ Below these requirements for CPRD are expressed in human-readable forms.
 
 ### MUST requirements
 
+* _e.g. The Research Object MUST have at least one resource that is a `ex:Script`._
+
+
 ### SHOULD requirements
 
+
 ### MAY requirements
+
