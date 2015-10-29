@@ -12,7 +12,7 @@ A defines a [Checklist](https://github.com/wf4ever/ro-manager/blob/master/Minim/
 expressed via a *model*. 
 
 The [Model](https://github.com/wf4ever/ro-manager/blob/master/Minim/minim-revised.md#minimmodel) lists **requirements** to be satisfied, which are split according to the 
-[RFC 2119](https://www.ietf.org/rfc/rfc2119) keywords MUST, SHOLD and MAY:
+[RFC 2119](https://www.ietf.org/rfc/rfc2119) keywords MUST, SHOULD and MAY:
 
 > **MUST**   This word, or the terms "REQUIRED" or "SHALL", mean that the
 > definition is an absolute requirement of the specification.
